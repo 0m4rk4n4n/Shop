@@ -1,0 +1,388 @@
+body.signin-body
+{
+    background-image: linear-gradient(to left, red , yellow);
+
+}
+
+.App
+{
+    overflow:hidden;
+}
+.container.signin
+{
+    margin-top: 2.5%;
+    text-align: center;
+
+}
+img.signinimage
+{
+    padding:0 2rem 2rem;
+    margin:0 auto;
+    display: block;
+    width: 120px;
+    
+}
+.control-size
+{
+    max-width: 250px;
+    margin:0 auto;
+    display: block;
+   
+}
+div.reposition
+{
+    margin-top: 15px;
+
+}
+.col-4 img 
+{
+    width:450px;
+    height:350px;
+}
+.btn-lg
+{
+    width:150px;
+   background-color: dimgrey;
+}
+.anch
+{
+    text-decoration: none;
+  display: block;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+@media screen {
+@media only screen and (max-width: 900px) {
+  img.adj{
+  width:40px;
+      height:auto
+  }
+  footer
+{
+position: relative !important;
+bottom:0;
+	left:0 !important;
+	right:0 !important;
+overflow:hidden !important;
+}
+
+}
+    .container.signin
+{
+    margin-top: 3%;
+    text-align: center;
+
+}
+button.repos
+{
+position: relative;
+bottom:-15px;
+}
+
+
+}
+    .jumbotron
+    {
+        text-align: center;
+        background:none;
+    }
+ 
+    .container.pos
+    {
+        margin: 0 auto;
+        display: block;
+        margin-top:2%;
+        text-align: center
+    }
+div.sectionlight
+{
+    background-image: linear-gradient(to left, red , yellow);
+}
+
+
+img.resizeimg
+{
+    width:130px;
+    height:150px;
+}
+button.center
+{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+ 
+}
+button.repos
+{
+    text-align: center;
+    margin:0 auto;
+    display: block;
+    background-color:firebrick;
+    color:white;
+}
+button.repos:hover
+{
+    text-align: center;
+    margin:0 auto;
+    display: block;
+    background-color:firebrick;
+    color:white;
+}
+div.re
+{
+margin:0 auto;
+display: block;
+text-align: center;
+min-width: 20px;
+}
+
+div.adjbut button
+{
+ display: block;
+ margin:0 auto;
+}
+div.adjbut button:hover
+{
+ display: block;
+ margin:0 auto;
+ background-color: crimson;
+}
+.AddColor
+{
+color:crimson;
+text-align: center;
+font-size:25px;
+}
+.bk
+{
+    background-color: grey;
+    height:100px;
+    padding:4px;
+}
+button.cen
+{
+    display: block;
+    margin:0 auto;
+    background-color:crimson;
+
+}
+.height
+{
+height:85px;
+background-color: #212529;
+}
+.low
+{
+    margin-top:30px;
+
+}
+.changecolor
+{
+    background-image: linear-gradient(to left, black, red);
+    color:white;
+}
+.changebuttoncolor
+{
+    background-color: crimson;
+}
+div.rearr
+{
+ font-size:30px !important;
+ font-family: 'Poiret One', cursive !important;
+position:absolute;
+left:0;
+}
+
+a
+{
+    cursor: pointer;
+
+}
+.chgc
+{
+    background-color: #212529;
+    margin:0;
+    padding: 0;
+   background-color: white;
+}
+.chg
+{
+    background-color: none;
+    text-align: center;
+    
+}
+.cart
+{
+    cursor: pointer;
+}
+.mandatory
+{
+    color:red;
+}
+.cart-box
+{
+    color:white;
+    background-color:black;
+    color:white;
+    position: absolute;
+    right:0;
+    top:90px;
+    font-size:15px;
+    display: none;
+    opacity: 0.92;
+    z-index: 1;
+    transform:translateX(100%);
+    width:28%;
+    min-height: 190px;
+    
+}
+.cart-box tr td
+{
+padding: 15px;
+
+}
+.show-box
+{
+display:block;
+transition:0.9ms ease-in;
+transform:translateX(0%);
+}
+
+
+@media only screen and (max-width: 1200px) 
+{
+    .decsize
+    {
+        font-size: 15px !important;
+    }
+    
+    .cart
+    {
+position:absolute;
+top:7px;
+right:90px;
+    }
+    .cart-box
+    {
+        width:95%;
+        position:absolute;
+        top:60px;
+        right:10px;
+	    left:10px;
+    }
+.col-4 button
+{
+    font-size:12px;
+}
+.cart
+{
+    margin-top:5px;
+}
+.counter
+{
+    color:red;
+    position: absolute;
+    top:-4px !important;
+    font-size: 16px !important;
+    right:117px !important;
+animation: animate 0.2s linear infinite;
+display:none;
+}
+
+}
+.chgbk
+{
+    color:white;
+    float:right;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+ul li
+{
+    padding-left:80px;
+}
+.counter
+{
+    color:red;
+    position: absolute;
+    top:3px;
+    font-size: 20px;;
+    right:32px;
+animation: animate 0.2s linear infinite;
+}
+@keyframes animate {
+    0%
+    {
+        position: absolute;
+        top:3px;
+        font-size: 20px;;
+        right:32px;
+    }
+    70%,100%
+    {
+        position: absolute;
+        top:3px;
+        font-size: 25px;
+        right:32px;
+    }
+}
+
+.justcon
+{
+    text-align: center !important;
+}
+
+.changeFont
+{
+
+font-family: 'Poiret One', cursive;
+font-size: 25px;
+
+}
+.float
+{
+    float:right;
+}
+
+
+
+.fa-stack[data-count]:after{
+  position:absolute;
+  right:0%;
+  top:0%;
+  content: attr(data-count);
+  font-size:40%;
+  padding:.6em;
+  border-radius:999px;
+  line-height:.75em;
+  color: white;
+  color:red;
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+  background: white;
+  border-style:solid;
+}
+.fa-circle {
+  color:black;
+ 
+}
+
+.red-cart {
+	color: #DF0000; background:black;
+}
+
+.static
+{
+background-image:url('backpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+background-attachment: fixed;
+position:relative;
+}
